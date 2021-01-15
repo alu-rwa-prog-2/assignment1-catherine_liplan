@@ -24,20 +24,18 @@ public class question1{
         System.out.println(name + " your BMI is: " + bmi);   // print the BMI with the name
 
         // part two of the question: Calculate perimeter and Surface area
-
-        // Declaring the length and width of the rectangle
         double length = 60.0;
-		double width = 35.0;
+	double width = 35.0;
 		
-		// Declaring the perimeter variable
-		double perimeter = 2 * (length + width);
-		//Declaring the Surface area variable
-		double surface = length * width;
+	// Declaring the perimeter variable
+        double perimeter = 2 * (length + width);
+        
+	//Declaring the Surface area variable
+	double surface = length * width;
 		
-		// Printing out the perimeter and surface area
-		System.out.println("The perimeter is " + perimeter + "cm");
-		System.out.println("The surface area is " + surface + "cm^2");
-
+	// Printing out the perimeter and surface area
+	System.out.println("The perimeter is " + perimeter + "cm");
+	System.out.println("The surface area is " + surface + "cm^2");
     }
 }
         
