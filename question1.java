@@ -13,6 +13,7 @@ public class question1 {
         String name = GetInput.nextLine();  // prompt for the name of the user
 
         System.out.println("Enter your height in meters: ");
+
         double height = GetInput.nextFloat();  // prompt for the height of the user
 
         System.out.println("Enter your weight in kg: ");
